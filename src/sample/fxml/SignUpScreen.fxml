@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LogInSignUpController">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="279.199951171875" minWidth="10.0" prefWidth="279.199951171875" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="120.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="280.2000244140625" minHeight="10.0" prefHeight="222.40000610351564" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="120.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="238.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <TextField promptText="Name" fx:id="suName"/>
+            <TextField promptText="Email" fx:id="suEmail"/>
+            <TextField promptText="Address" fx:id="suAddress"/>
+            <TextField promptText="Phone #" fx:id="suPhone"/>
+            <PasswordField promptText="Password" fx:id="suPass"/>
+         </children>
+      </VBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="117.0" prefWidth="294.0" text="Sign-Up" textAlignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onRegisterPressed" prefHeight="26.0" prefWidth="142.0" text="Register" />
+            <Button mnemonicParsing="false" onAction="#onReturnPressed" prefHeight="26.0" prefWidth="150.0" text="Return" />
+         </children>
+      </HBox>
+   </children>
+</GridPane>

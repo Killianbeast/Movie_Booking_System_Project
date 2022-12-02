@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab text="Movies">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0">
+               <children>
+                  <GridPane layoutY="1.0" prefHeight="370.0" prefWidth="600.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
+                                 <image>
+                                    <Image url="@../img/dak.jpg" />
+                                 </image>
+                              </ImageView>
+                              <HBox prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Edit" />
+                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
+                           <children>
+                              <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
+                                 <image>
+                                    <Image url="@../img/EIqXOl0WkAMeWGz.jpg" />
+                                 </image></ImageView>
+                              <HBox prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="49.0" prefWidth="106.0" text="Edit" />
+                                    <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="106.0" text="Purchase Ticket" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2">
+                           <children>
+                              <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
+                                 <image>
+                                    <Image url="@../img/Dang_Chi.png" />
+                                 </image></ImageView>
+                              <HBox prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="43.0" prefWidth="106.0" text="Edit" />
+                                    <Button mnemonicParsing="false" prefHeight="41.0" prefWidth="106.0" text="Purchase Ticket" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
+                           <children>
+                              <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
+                                 <image>
+                                    <Image url="@../img/i_am_going.png" />
+                                 </image></ImageView>
+                              <HBox prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <HBox prefHeight="100.0" prefWidth="200.0">
+                                       <children>
+                                          <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="106.0" text="Edit" />
+                                          <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="106.0" text="Purchase Ticket" />
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <children>
+                              <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
+                                 <image>
+                                    <Image url="@../img/riolu.jpeg" />
+                                 </image></ImageView>
+                              <HBox prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="106.0" text="Edit" />
+                                    <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="106.0" text="Purchase Ticket" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                           <children>
+                              <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
+                                 <image>
+                                    <Image url="@../img/WeezerCS.png" />
+                                 </image></ImageView>
+                              <HBox prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="106.0" text="Edit" />
+                                    <Button mnemonicParsing="false" prefHeight="41.0" prefWidth="106.0" text="Purchase Ticket" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </GridPane>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Untitled Tab 2">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
