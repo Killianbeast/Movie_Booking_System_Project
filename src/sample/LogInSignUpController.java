@@ -33,6 +33,7 @@ public class LogInSignUpController {
         String username = userName.getText();
         String userpass = userPass.getText();
         String test = "Hello";
+        String test2 = "Hello2"
 
         System.out.println(username);
         System.out.println(userpass);
