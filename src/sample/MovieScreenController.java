@@ -1,16 +1,20 @@
 package sample;
-import java.io.File;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.stage.Stage;
+
 
 import javafx.scene.control.TextField;
 
+import java.io.File;
+import java.io.IOException;
+
 public class MovieScreenController {
     
-    @FMXL private TextField SearchBar;
+    @FXML private TextField SearchBar;
     
 
     @FXML
@@ -32,15 +36,20 @@ public class MovieScreenController {
             System.out.println("Movie Not Found.");
         }
         else{
-            //Go to respective purchase purchase screen
+            searchfor.substring(0, searchfor.indexOf('.'));
+            onViewClicked(actionEvent, searchfor);
         }
-        
-        
-         
         //grab the uhhhhhh thing you just searched for and check to see if the name exists in the image file and then go directly to that purchase screen
-           
-     
+    }
     
+    private void onViewClicked(javafx.event.ActionEvent actionevent, String MovieTitle) throws IOException {
+        
+        Parent currScene = FXMLLoader.load(getClass().getResource("fxml/InfoScreen.fxml"));
+        Stage currStage = Main.getStage();
+        currStage.setTitle(MovieTitle);
+        currStage.setScene(new Scene(currScene, 600, 400));
+        currStage.show();
+        
     }
     
 
