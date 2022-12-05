@@ -162,164 +162,168 @@
     ],
     "Current": [
         {
-            "key": "1",
-            "title": "Jurassic World: Dominion",
-            "status": "Current",
-            "showtimes": [
-                "13:25",
-                "13:55",
-                "17:50"
+            "Key": "1",
+            "Title": "The Room",
+            "Status": "Current",
+            "Showtimes": [
+                "8:25AM",
+                "3:55PM",
+                "7:25PM"
             ],
-            "theater": [
+            "Theater": [
                 "Lubbock",
-                "Amarillo",
-                "Levelland",
-                "Plainview",
-                "Snyder",
-                "Abilene"
+                "Dallas",
+                "Midland",
+                "Big Spring"
             ],
-            "numberOfSeats": "34",
-            "synopsis": "Four years after the destruction of Isla Nublar, Biosyn operatives attempt to track down Maisie Lockwood, while Dr Ellie Sattler investigates a genetically engineered swarm of giant insects.",
-            "runtime": "147 min",
-            "prices": "6",
-            "reviews": [
-                "Great Movie",
-                "Best Movie",
-                "The greatest movie ever",
-                "I like the lead in this movie"
+            "NumberOfSeats": "65",
+            "Synopsis": "Johnny is a successful banker who lives happily in a San Francisco townhouse with his fiancée, Lisa. One day, inexplicably, she gets bored of him and decides to seduce Johnny's best friend, Mark. From there, nothing will be the same again.",
+            "Runtime": "1HR 31MIN",
+            "Rated": "R",
+            "Prices": "8",
+            "Reviews": [
+                "This movie is a timeless masterpiece",
+                "This is the best worst movie ever made.",
+                "In a class of its own is its overabundant idiocy",
+                "A terrible amateurish movie that becomes hilarious"
             ],
-            "castInfo": [
-                "Chris Pratt",
-                "Bryce Dallas Howard",
-                "Laura Dern",
-                "Sam Neill"
+            "CastInfo": [
+                "Tommy Wiseau",
+                "Greg Sestero",
+                "Juliette Danielle",
+                "Carolyn Minnott"
             ]
         },
         {
-            "key": "2",
-            "title": "The Batman",
-            "status": "Current",
-            "showtimes": [
-                "10:30",
-                "11:30",
-                "21:15"
+            "Key": "2",
+            "Title": "‘Mighty Morphin Power Rangers: The Movie’ (1993)",
+            "Status": "Current",
+            "Showtimes": [
+                "10:00AM",
+                "2:30PM",
+                "6:30PM"
             ],
-            "theater": [
-                "Amarillo",
-                "Levelland",
-                "Snyder",
-                "Abilene"
+            "Theater": [
+               "Lubbock",
+                "Dallas",
+                "Midland",
+                "Big Spring"
             ],
-            "numberOfSeats": "47",
-            "synopsis": "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
-            "runtime": "176 min",
-            "prices": "11",
-            "reviews": [
-                "Great Movie",
-                "Best Movie",
-                "The greatest movie ever",
-                "I like the lead in this movie"
+            "NumberOfSeats": "4",
+            "Synopsis": "A giant egg is unearthed at a construction site and soon opened, releasing the terrible Ivan Ooze, who wreaks vengeance on Zordon for imprisoning him millennia ago. With Zordon dying and their powers lost, the Rangers head to a distant planet to find the mystic warrior Dulcea.",
+            "Runtime": "1HR  36MIN",
+            "Rated": "PG",
+            "Prices": "8",
+            "Reviews": [
+                "Average",
+                "Well.... I guess you can call it a movie",
+                "Huh",
+                "I LOVE IT!!!"
             ],
-            "castInfo": [
-                "Robert Pattinson",
-                "ZoÃ« Kravitz",
-                "Jeffrey Wright",
-                "Colin Farrell"
+            "CastInfo": [
+                "Amy Jo Johnson",
+                "Jason David Frank",
+                "David Yost",
+                "Austin St. John"
             ]
         },
         {
-            "key": "3",
-            "title": "Scream",
-            "status": "Current",
-            "showtimes": [
-                "14:25",
-                "16:55",
-                "17:15"
+            "Key": "3",
+            "Title": "Harold & Kumar Go To White Castle",
+            "Status": "Current",
+            "Showtimes": [
+                "11:45AM",
+                "5:15PM",
+                "9:45PM"
             ],
-            "theater": [
-                "Lubbock",
-                "Amarillo",
-                "Levelland",
-                "Plainview"
+            "Theater": [
+               "Lubbock",
+                "Dallas",
+                "Midland",
+                "Big Spring"
             ],
-            "numberOfSeats": "38",
-            "synopsis": "25 years after a streak of brutal murders shocked the quiet town of Woodsboro, Calif., a new killer dons the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town's deadly past.",
-            "runtime": "114 min",
-            "prices": "13",
-            "reviews": [
-                "Great Movie",
-                "Best Movie",
-                "The greatest movie ever",
-                "I like the lead in this movie"
+            "NumberOfSeats": "45",
+            "Synopsis": "Nerdy accountant Harold (John Cho) and his irrepressible friend, Kumar (Kal Penn), get stoned watching television and find themselves utterly bewitched by a commercial for White Castle. Convinced there must be one nearby, the two set out on a late-night odyssey that takes them deep into New Jersey. Somehow, the boys manage to run afoul of rednecks, cops and even a car-stealing Neil Patrick Harris before getting anywhere near their beloved sliders.",
+            "Runtime": "4HR 20MIN",
+            "Rated": "R",
+            "Prices": "8",
+            "Reviews": [
+                "Delivers some good laughs",
+                "There's a decent pace to this,",
+                "It remains one of the greatest comedies",
+                "An immediate classic "
             ],
-            "castInfo": [
-                "Neve Campbell",
-                "Courteney Cox",
-                "David Arquette",
-                "Melissa Barrera"
+            "CastInfo": [
+                "Kal Penn",
+                "John Cho",
+                "Neil Patrick Harris",
+                "Bobby Lee"
             ]
         },
         {
-            "key": "4",
-            "title": "Fantastic Beasts: The Secrets of Dumbledore",
-            "status": "Current",
-            "showtimes": [
-                "13:10",
-                "17:25",
-                "22:35"
+            "Key": "4",
+            "Title": "The Adventures of Sharkboy and Lava in 3-D",
+            "Status": "Current",
+            "Showtimes": [
+               "2:00AM",
+                "9:30PM",
+                "11:30PM"
             ],
-            "theater": [
+            "Theater": [
                 "Lubbock",
-                "Snyder",
-                "Abilene"
+                "Dallas",
+                "Midland",
+                "Big Spring"
             ],
-            "numberOfSeats": "59",
-            "synopsis": "Professor Albus Dumbledore must assist Newt Scamander and his partners as Grindelwald begins to lead an army to eliminate all Muggles.",
-            "runtime": "142 min",
-            "prices": "7",
-            "reviews": [
-                "Great Movie",
-                "Best Movie",
-                "The greatest movie ever",
-                "I like the lead in this movie"
+            "NumberOfSeats": "69",
+            "Synopsis": "Bullied by classmates, young Max (Cayden Boyd) escapes into a fantasy, conjuring up the action-packed lives of Lavagirl (Taylor Dooley) and Sharkboy (Taylor Lautner). But one day, Lavagirl and Sharkboy suddenly come to life -- and their world, Planet Drool, needs a hero named Max. As Max escapes to Planet Drool, he battles aliens and tries to save his new friends' planet from destruction. He also battles his bullies, who have become villains like the Ice Princess (Sasha Pieterse).",
+            "Runtime": "1 HR 35 MIN",
+            "Rated": "PG",
+            "Prices": "8",
+            "Reviews": [
+                "The movie is absolute garbage.",
+                "This movie is so beautiful!",
+                "Innocent and delightful",
+                "The acting left a lot to be desired in this movie"
             ],
-            "castInfo": [
-                "Eddie Redmayne",
-                "Jude Law",
-                "Ezra Miller",
-                "Dan Fogler"
+            "CastInfo": [
+                "Taylor Dooley",
+                "Taylor Lautner",
+                "Cayden Boyd",
+                "George Lopez"
             ]
         },
         {
-            "key": "5",
-            "title": "Uncharted",
-            "status": "Current",
-            "showtimes": [
-                "12:00",
-                "14:55",
-                "21:25"
+             "Key": "5",
+            "Title": "Ratatouille",
+            "Status": "Current",
+            "Showtimes": [
+                "9:00AM",
+                "12:30PM",
+                "4:30PM"
             ],
-            "theater": [
+            "Theater": [
                 "Lubbock",
-                "Levelland",
-                "Plainview",
-                "Abilene"
+                "Dallas",
+                "Midland",
+                "Big Spring"
             ],
-            "numberOfSeats": "35",
-            "synopsis": "Street-smart Nathan Drake is recruited by seasoned treasure hunter Victor Sully Sullivan to recover a fortune amassed by Ferdinand Magellan, and lost 500 years ago by the House of Moncada.",
-            "runtime": "116 min",
-            "prices": "5",
-            "reviews": [
-                "Great Movie",
-                "Best Movie",
-                "The greatest movie ever",
-                "I like the lead in this movie"
+            "NumberOfSeats": "95",
+            "Synopsis": "Remy dreams of becoming a great chef, despite being a rat in a definitely rodent-phobic profession. He moves to Paris to follow his dream, and with the help of hapless garbage boy Linguini he puts his culinary skills to the test in the kitchen but he has to stay in hiding at the same time, with hilarious consequences. Remy eventually gets the chance to prove his culinary abilities to a great food critic but is the food good? A Pixar animation.",
+            "Runtime": "1 HR 51 MIN",
+		    "Rated": "PG",
+            "Prices": "8",
+            "Reviews": [
+                "Looks Good",
+                "Ten out of Ten",
+                "Made Me Hungry",
+                "The only rat I want in the Kitchen"
             ],
-            "castInfo": [
-                "Tom Holland",
-                "Mark Wahlberg",
-                "Antonio Banderas",
-                "Sophia Ali"
+            "CastInfo": [
+                "Patton Oswalt",
+                "Lou Romano",
+                "Will Arnettt",
+                "Brad Bird"
             ]
         }
     ]
