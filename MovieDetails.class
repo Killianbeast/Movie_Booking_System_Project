@@ -3,6 +3,7 @@
         {
             "Key": "1",
             "Title": "Top Gun: Maverick",
+            "Release Year": "2022",
             "Status": "Upcoming",
             "Showtimes": [
                 "3:25PM",
@@ -16,143 +17,153 @@
                 "Big Spring"
             ],
             "Number of Seats": "63",
-            "Synopsis": "The people of Wakanda fight to protect their home from intervening world powers as they mourn the death of King T'Challa.",
-            "Runtime": " hr min",
-            "Rated
+            "Summary": "In the film, Maverick confronts his past while training a group of younger Top Gun graduates, including the son of his deceased best friend, for a dangerous mission.",
+            "Runtime": "2hr 10min",
+            "Rated": "PG-13",
             "Prices": "$8",
+            "Reviews": [
+                "Best Movie ever made",
+                "One of the greatest films ever made",
+                "Great movie fiction scenes which are actually real",
+                "I love Rooster and Hangman in this movie. Of course Maverick is my favorite character in this movie"
+            ],
+            "Cast": [
+                "Tom Cruise as Captain Pete "Maverick" Mitchell",
+                "Jennifer Connelly as Penelope "Penny" Benjamin",
+                "Miles Teller as Lieutenant Bradley "Rooster" Bradshaw",
+                "Val Kilmer as Admiral Tom "Iceman" Kazansky",
+                "Jon Hamm as Vice Admiral Beau "Cyclone" Simpson"
+            ]
+        },
+        {
+            "Key": "2",
+            "Title": "Black Adam",
+            "Release Year": "2022",
+            "Status": "Upcoming",
+            "Showtimes": [
+                "3:30PM",
+                "5:15PM",
+                "8:45PM",
+                "10:25PM"
+            ],
+            "Theater": [
+                "Lubbock",
+                "Midland",
+                "Big Spring",
+                "Dallas"
+            ],
+            "Number of Seats": "69",
+            "Summary": "Reawakening after 5000 years, Black Adam becomes the world's ruthless protector: an anti-villain to take on the likes of Superman and Wonder Woman.",
+            "Runtime": "2hr 5min",
+            "Rated": "PG-13",
+            "Prices": "$8",
+            "Reviews": [
+                "Overall, an awesome movie",
+                "Best superhero/villain movie made in a long time",
+                "The greatest superhero/villain movie character ever",
+                "The story of how Black Adam got his powers is very surprising"
+            ],
+            "Cast": [
+                "Dwayne Johnson as Black Adam",
+                "Aldis Hodge as Hawkman",
+                "Pierce Brosnan as Doctor Fate (Kent Nelson)",
+                "Jennifer Holland as Emilia Harcourt",
+                "Quintessa Swindell as Cyclone"
+            ]
+        },
+        {
+            "Key": "3",
+            "Title": "Bullet Train",
+            "Release Year": "2022",
+            "Status": "Upcoming",
+            "Showtimes": [
+                "1:35PM",
+                "3:55PM",
+                "7:45PM"
+            ],
+            "Location": [
+                "Amarillo",
+                "Midland",
+                "Big Spring",
+                "Dallas"
+            ],
+            "Number of Seats": "53",
+            "Summary": "The story takes place on a bullet train careening across Japan, but most of the movie was shot on green-screened sets, and the cityscapes and countrysides that the train rides through are mainly miniatures and CGI.",
+            "Runtime": "2hr 7min",
+            "Prices": "$8",
+            "Reviews": [
+                "Very funny movie",
+                "Definitely a MUST watch Movie",
+                "Overall, an awesome Movie",
+                "I love Tangerine and Lemon in the movie, they are comical"
+            ],
+            "Cast": [
+                "Brad Pitt as Ladybug",
+                "Andrew Koji as Yuichi Kimura",
+                "Aaron Taylor-Johnson as Tangerine",
+                "Brian Tyree Henry as Lemon"
+            ]
+        },
+        {
+            "Key": "4",
+            "Title": "The Batman",
+            "Release Year": "2022",
+            "Status": "Upcoming",
+            "Showtimes": [
+                "2:30PM",
+                "5:55PM",
+                "10:15PM"
+            ],
+            "Location": [
+                "Lubbock",
+                "Midland",
+                "Big Spring",
+                "Dallas"
+            ],
+            "Number of Seats": "57",
+            "Summary": " When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
+            "Runtime": "2hr 56min",
+            "Prices": "$8",
+            "Reviews": [
+                "Overall, an awesome Movie",
+                "Definitely a MUST watch Movie",
+                "One of the best Batman movies ever",
+                "Great storyline"
+            ],
+            "Cast": [
+                "Robert Pattinson as Bruce Wayne/Batman",
+                "Zoë Kravitz as Selina Kyle/Catwoman",
+                "Jeffrey Wright as James Gordon",
+                "Paul Dano as Edward Nashton / Riddler"
+            ]
+        },
+        {
+            "Key": "5",
+            "Title": "Avatar: The Way of Water",
+            "Release Year": "2022",
+            "Status": "Upcoming",
+            "Showtimes": [
+                "15:20",
+                "16:55",
+                "23:35"
+            ],
+            "Theater": [
+                "Lubbock",
+                "Midland",
+                "Big Spring",
+                "Dallas"
+            ],
+            "Number of Seats": "65",
+            "Summary": "Jake Sully lives with his newfound family formed on the planet of Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their planet.",
+            "Runtime": "190 min",
+            "Prices": "6",
             "Reviews": [
                 "Great Movie",
                 "Best Movie",
                 "The greatest movie ever",
                 "I like the lead in this movie"
             ],
-            "castInfo": [
-                "Letitia Wright",
-                "Lupita Nyong'o",
-                "Danai Gurira",
-                "Winston Duke"
-            ]
-        },
-        {
-            "key": "2",
-            "title": "Thor: Love and Thunder",
-            "status": "Upcoming",
-            "showtimes": [
-                "14:30",
-                "19:15",
-                "19:45"
-            ],
-            "theater": [
-                "Lubbock",
-                "Plainview",
-                "Abilene"
-            ],
-            "numberOfSeats": "64",
-            "synopsis": "Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct.",
-            "runtime": "118 min",
-            "prices": "12",
-            "reviews": [
-                "Great Movie",
-                "Best Movie",
-                "The greatest movie ever",
-                "I like the lead in this movie"
-            ],
-            "castInfo": [
-                "Chris Hemsworth",
-                "Natalie Portman",
-                "Christian Bale",
-                "Tessa Thompson"
-            ]
-        },
-        {
-            "key": "3",
-            "title": "Doctor Strange in the Multiverse of Madness",
-            "status": "Upcoming",
-            "showtimes": [
-                "11:30",
-                "16:15",
-                "22:45"
-            ],
-            "theater": [
-                "Amarillo",
-                "Snyder",
-                "Abilene",
-                "Snyder"
-            ],
-            "numberOfSeats": "42",
-            "synopsis": "Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats, including other-universe versions of himself, which threaten to wipe out millions across the multiverse. They seek help from Wanda the Scarlet Witch, Wong and others.",
-            "runtime": "126 min",
-            "prices": "10",
-            "reviews": [
-                "Great Movie",
-                "Best Movie",
-                "The greatest movie ever",
-                "I like the lead in this movie"
-            ],
-            "castInfo": [
-                "Benedict Cumberbatch",
-                "Elizabeth Olsen",
-                "Chiwetel Ejiofor",
-                "Benedict Wong"
-            ]
-        },
-        {
-            "key": "4",
-            "title": "Halloween Ends",
-            "status": "Upcoming",
-            "showtimes": [
-                "13:10",
-                "16:25",
-                "19:15"
-            ],
-            "theater": [
-                "Plainview",
-                "Snyder",
-                "Abilene"
-            ],
-            "numberOfSeats": "53",
-            "synopsis": "The saga of Michael Myers and Laurie Strode comes to a spine-chilling climax in the final installment of this trilogy.",
-            "runtime": "111 min",
-            "prices": "8",
-            "reviews": [
-                "Great Movie",
-                "Best Movie",
-                "The greatest movie ever",
-                "I like the lead in this movie"
-            ],
-            "castInfo": [
-                "Jamie Lee Curtis",
-                "Andi Matichak",
-                "James Jude Courtney",
-                "Rohan Campbell"
-            ]
-        },
-        {
-            "key": "5",
-            "title": "Avatar: The Way of Water",
-            "status": "Upcoming",
-            "showtimes": [
-                "15:20",
-                "16:55",
-                "23:35"
-            ],
-            "theater": [
-                "Lubbock",
-                "Levelland",
-                "Snyder",
-                "Abilene"
-            ],
-            "numberOfSeats": "65",
-            "synopsis": "Jake Sully lives with his newfound family formed on the planet of Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their planet.",
-            "runtime": "190 min",
-            "prices": "6",
-            "reviews": [
-                "Great Movie",
-                "Best Movie",
-                "The greatest movie ever",
-                "I like the lead in this movie"
-            ],
-            "castInfo": [
+            "Cast": [
                 "Zoe Saldana",
                 "Kate Winslet",
                 "Sigourney Weaver",
