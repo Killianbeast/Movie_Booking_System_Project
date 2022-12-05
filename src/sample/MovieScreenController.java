@@ -10,7 +10,7 @@ import javafx.scene.control.TextField;
 
 public class MovieScreenController {
     
-    @FMXL private TextField SearchBar;
+    @FXML private TextField SearchBar;
     
 
     @FXML
