@@ -33,7 +33,7 @@ public class MovieScreenController {
             System.out.println("Movie Not Found.");
         }
         else{
-            searchfor.substring(searchfor.indexOf('.'));
+            searchfor.substring(0, searchfor.indexOf('.'));
             onViewClicked(actionevent, searchfor);
         }
         //grab the uhhhhhh thing you just searched for and check to see if the name exists in the image file and then go directly to that purchase screen
