@@ -18,7 +18,11 @@ public class MovieScreenController {
     }
     
     @FXML
-    private void onSearchClicked() {
+    private void onSearchClicked(javafx.event.ActionEvent actionEvent) throws IOException {
+        
+        string searchfor = SearchBar.getText()
+            
+            
         
      
     
