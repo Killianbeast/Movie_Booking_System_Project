@@ -22,6 +22,8 @@ public class MovieScreenController {
         
         string searchfor = SearchBar.getText()
             
+         
+        //grab the uhhhhhh thing you just searched for and check to see if the name exists in the image file and then go directly to that purchase screen
             
         
      
