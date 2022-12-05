@@ -12,7 +12,9 @@ import javafx.stage.Stage;
 //import java.sql.SQLException;
 
 import java.io.IOException;
+import java.sql.Connection;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 public class LogInSignUpController {
 
@@ -30,19 +32,24 @@ public class LogInSignUpController {
     @FXML
     private void onLoginPressed(/*javafx.event.ActionEvent actionEvent*/) throws IOException {
 
+        //Statement stmt;
+        //Connection conn = dbConnection.connect();
+
         String username = userName.getText();
         String userpass = userPass.getText();
 
         System.out.println(username);
         System.out.println(userpass);
 
-        Parent currScene = FXMLLoader.load(getClass().getResource("fxml/MovieScreen.fxml"));
-        Stage currStage = Main.getStage();
-        currStage.setTitle("Movies");
-        currStage.setScene(new Scene(currScene, 600, 400));
-        currStage.show();
-
-
+        if (!dbConnection.checkLogin(username, userpass)) {
+            System.out.println("Login Failed");
+        } else {
+            Parent currScene = FXMLLoader.load(getClass().getResource("fxml/CustomerScreen.fxml"));
+            Stage currStage = Main.getStage();
+            currStage.setTitle("Movies");
+            currStage.setScene(new Scene(currScene, 600, 400));
+            currStage.show();
+        }
     }
 
     @FXML

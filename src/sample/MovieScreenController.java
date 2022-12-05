@@ -1,5 +1,4 @@
 package sample;
-import java.io.File;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -7,7 +6,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+
 import javafx.scene.control.TextField;
+
+import java.io.File;
+import java.io.IOException;
 
 public class MovieScreenController {
     

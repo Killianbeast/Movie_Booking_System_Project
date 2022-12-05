@@ -1,6 +1,7 @@
 package sample;
 
 import java.sql.*;
+import java.util.Objects;
 
 public class dbConnection {
     public static Connection connect() {
@@ -45,4 +46,16 @@ public class dbConnection {
         }
     }
 
+    public static boolean checkLogin(String email, String pass) {
+        Statement stmt;
+        Connection connec = connect();
+
+        try {
+            stmt = connec.createStatement();
+            ResultSet rs = stmt.executeQuery(String.format("SELECT Password FROM Users WHERE Email = '%s';", email));
+            return Objects.equals(pass, rs.getString(1));
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
