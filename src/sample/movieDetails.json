@@ -28,11 +28,11 @@
                 "I love Rooster and Hangman in this movie. Of course Maverick is my favorite character in this movie"
             ],
             "Cast": [
-                "Tom Cruise as Captain Pete "Maverick" Mitchell",
-                "Jennifer Connelly as Penelope "Penny" Benjamin",
-                "Miles Teller as Lieutenant Bradley "Rooster" Bradshaw",
-                "Val Kilmer as Admiral Tom "Iceman" Kazansky",
-                "Jon Hamm as Vice Admiral Beau "Cyclone" Simpson"
+                "Tom Cruise as Captain Pete Mitchell aka Maverick",
+                "Jennifer Connelly as Penelope Benjamin aka Penny",
+                "Miles Teller as Lieutenant Bradley Bradshaw aka Rooster",
+                "Val Kilmer as Admiral Tom Kazansky aka Iceman",
+                "Jon Hamm as Vice Admiral Beau Simpson aka Cyclone"
             ]
         },
         {
@@ -90,6 +90,7 @@
             "Number of Seats": "53",
             "Summary": "The story takes place on a bullet train careening across Japan, but most of the movie was shot on green-screened sets, and the cityscapes and countrysides that the train rides through are mainly miniatures and CGI.",
             "Runtime": "2hr 7min",
+            "Rated": "R",
             "Prices": "$8",
             "Reviews": [
                 "Very funny movie",
@@ -123,6 +124,7 @@
             "Number of Seats": "57",
             "Summary": " When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
             "Runtime": "2hr 56min",
+	    "Rated": "PG-13",
             "Prices": "$8",
             "Reviews": [
                 "Overall, an awesome Movie",
@@ -134,40 +136,41 @@
                 "Robert Pattinson as Bruce Wayne/Batman",
                 "Zoë Kravitz as Selina Kyle/Catwoman",
                 "Jeffrey Wright as James Gordon",
-                "Paul Dano as Edward Nashton / Riddler"
+                "Paul Dano as Edward Nashton/Riddler"
             ]
         },
         {
             "Key": "5",
-            "Title": "Avatar: The Way of Water",
+            "Title": "Uncharted",
             "Release Year": "2022",
             "Status": "Upcoming",
             "Showtimes": [
-                "15:20",
-                "16:55",
-                "23:35"
+                "3:20PM",
+                "5:55PM",
+                "9:35"
             ],
-            "Theater": [
+            "Location": [
                 "Lubbock",
                 "Midland",
                 "Big Spring",
                 "Dallas"
             ],
-            "Number of Seats": "65",
-            "Summary": "Jake Sully lives with his newfound family formed on the planet of Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their planet.",
-            "Runtime": "190 min",
-            "Prices": "6",
+            "Number of Seats": "62",
+            "Summary": "A young street-smart, Nathan Drake and his wisecracking partner Victor “Sully” Sullivan embark on a dangerous pursuit of “the greatest treasure never found” while also tracking clues that may lead to Nathan’s long-lost brother.",
+            "Runtime": "1hr 56min",
+	    "Rated": "PG-13",
+            "Prices": "$8",
             "Reviews": [
-                "Great Movie",
-                "Best Movie",
-                "The greatest movie ever",
-                "I like the lead in this movie"
+                "Great storyline",
+                "Overall, an awesome Movie",
+                "Definitely a MUST watch Movie",
+                "One of the best Tom Holland movies made yet"
             ],
             "Cast": [
-                "Zoe Saldana",
-                "Kate Winslet",
-                "Sigourney Weaver",
-                "Sam Worthington"
+                "Tom Holland as Nathan Drake",
+                "Mark Wahlberg as Victor Sullivan aka Sully",
+                "Antonio Banderas as Santiago Moncada",
+                "Sophia Ali as Chloe Frazer"
             ]
         }
     ],
@@ -175,30 +178,31 @@
         {
             "Key": "1",
             "Title": "The Room",
+	    "Release Year": "2003",
             "Status": "Current",
             "Showtimes": [
                 "8:25AM",
                 "3:55PM",
                 "7:25PM"
             ],
-            "Theater": [
+            "Location": [
                 "Lubbock",
                 "Dallas",
                 "Midland",
                 "Big Spring"
             ],
-            "NumberOfSeats": "65",
-            "Synopsis": "Johnny is a successful banker who lives happily in a San Francisco townhouse with his fiancée, Lisa. One day, inexplicably, she gets bored of him and decides to seduce Johnny's best friend, Mark. From there, nothing will be the same again.",
-            "Runtime": "1HR 31MIN",
+            "Number of seats": "65",
+            "Summary": "Johnny is a successful banker who lives happily in a San Francisco townhouse with his fiancée, Lisa. One day, inexplicably, she gets bored of him and decides to seduce Johnny's best friend, Mark. From there, nothing will be the same again.",
+            "Runtime": "1hr 31min",
             "Rated": "R",
-            "Prices": "8",
+            "Prices": "$8",
             "Reviews": [
                 "This movie is a timeless masterpiece",
                 "This is the best worst movie ever made.",
                 "In a class of its own is its overabundant idiocy",
                 "A terrible amateurish movie that becomes hilarious"
             ],
-            "CastInfo": [
+            "Cast": [
                 "Tommy Wiseau",
                 "Greg Sestero",
                 "Juliette Danielle",
@@ -207,31 +211,32 @@
         },
         {
             "Key": "2",
-            "Title": "‘Mighty Morphin Power Rangers: The Movie’ (1993)",
+            "Title": "Mighty Morphin Power Rangers: The Movie",
+	    "Release Year": "1995",
             "Status": "Current",
             "Showtimes": [
                 "10:00AM",
                 "2:30PM",
                 "6:30PM"
             ],
-            "Theater": [
+            "Location": [
                "Lubbock",
                 "Dallas",
                 "Midland",
                 "Big Spring"
             ],
-            "NumberOfSeats": "4",
-            "Synopsis": "A giant egg is unearthed at a construction site and soon opened, releasing the terrible Ivan Ooze, who wreaks vengeance on Zordon for imprisoning him millennia ago. With Zordon dying and their powers lost, the Rangers head to a distant planet to find the mystic warrior Dulcea.",
-            "Runtime": "1HR  36MIN",
-            "Rated": "PG",
-            "Prices": "8",
+            "Number of seats": "54",
+            "Summary": "A giant egg is unearthed at a construction site and soon opened, releasing the terrible Ivan Ooze, who wreaks vengeance on Zordon for imprisoning him millennia ago. With Zordon dying and their powers lost, the Rangers head to a distant planet to find the mystic warrior Dulcea.",
+            "Runtime": "1hr 36min",
+            "Rated": "PG-13",
+            "Prices": "$8",
             "Reviews": [
                 "Average",
                 "Well.... I guess you can call it a movie",
                 "Huh",
                 "I LOVE IT!!!"
             ],
-            "CastInfo": [
+            "Cast": [
                 "Amy Jo Johnson",
                 "Jason David Frank",
                 "David Yost",
@@ -241,30 +246,31 @@
         {
             "Key": "3",
             "Title": "Harold & Kumar Go To White Castle",
+	    "Release Year": "2004",
             "Status": "Current",
             "Showtimes": [
                 "11:45AM",
                 "5:15PM",
                 "9:45PM"
             ],
-            "Theater": [
+            "Location": [
                "Lubbock",
                 "Dallas",
                 "Midland",
                 "Big Spring"
             ],
-            "NumberOfSeats": "45",
-            "Synopsis": "Nerdy accountant Harold (John Cho) and his irrepressible friend, Kumar (Kal Penn), get stoned watching television and find themselves utterly bewitched by a commercial for White Castle. Convinced there must be one nearby, the two set out on a late-night odyssey that takes them deep into New Jersey. Somehow, the boys manage to run afoul of rednecks, cops and even a car-stealing Neil Patrick Harris before getting anywhere near their beloved sliders.",
-            "Runtime": "4HR 20MIN",
+            "Number of seats": "45",
+            "Summary": "Nerdy accountant Harold (John Cho) and his irrepressible friend, Kumar (Kal Penn), get stoned watching television and find themselves utterly bewitched by a commercial for White Castle. Convinced there must be one nearby, the two set out on a late-night odyssey that takes them deep into New Jersey. Somehow, the boys manage to run afoul of rednecks, cops and even a car-stealing Neil Patrick Harris before getting anywhere near their beloved sliders.",
+            "Runtime": "4hr 20min",
             "Rated": "R",
-            "Prices": "8",
+            "Prices": "$8",
             "Reviews": [
                 "Delivers some good laughs",
                 "There's a decent pace to this,",
                 "It remains one of the greatest comedies",
                 "An immediate classic "
             ],
-            "CastInfo": [
+            "Cast": [
                 "Kal Penn",
                 "John Cho",
                 "Neil Patrick Harris",
@@ -274,30 +280,31 @@
         {
             "Key": "4",
             "Title": "The Adventures of Sharkboy and Lava in 3-D",
+	    "Release Year": "2005",
             "Status": "Current",
             "Showtimes": [
                "2:00AM",
-                "9:30PM",
-                "11:30PM"
+               "9:30PM",
+               "11:30PM"
             ],
-            "Theater": [
+            "Location": [
                 "Lubbock",
                 "Dallas",
                 "Midland",
                 "Big Spring"
             ],
-            "NumberOfSeats": "69",
-            "Synopsis": "Bullied by classmates, young Max (Cayden Boyd) escapes into a fantasy, conjuring up the action-packed lives of Lavagirl (Taylor Dooley) and Sharkboy (Taylor Lautner). But one day, Lavagirl and Sharkboy suddenly come to life -- and their world, Planet Drool, needs a hero named Max. As Max escapes to Planet Drool, he battles aliens and tries to save his new friends' planet from destruction. He also battles his bullies, who have become villains like the Ice Princess (Sasha Pieterse).",
-            "Runtime": "1 HR 35 MIN",
-            "Rated": "PG",
-            "Prices": "8",
+            "Number of seats": "69",
+            "Summary": "Bullied by classmates, young Max (Cayden Boyd) escapes into a fantasy, conjuring up the action-packed lives of Lavagirl (Taylor Dooley) and Sharkboy (Taylor Lautner). But one day, Lavagirl and Sharkboy suddenly come to life -- and their world, Planet Drool, needs a hero named Max. As Max escapes to Planet Drool, he battles aliens and tries to save his new friends' planet from destruction. He also battles his bullies, who have become villains like the Ice Princess (Sasha Pieterse).",
+            "Runtime": "1hr 35min",
+            "Rated": "PG-13",
+            "Prices": "$8",
             "Reviews": [
                 "The movie is absolute garbage.",
                 "This movie is so beautiful!",
                 "Innocent and delightful",
                 "The acting left a lot to be desired in this movie"
             ],
-            "CastInfo": [
+            "Cast": [
                 "Taylor Dooley",
                 "Taylor Lautner",
                 "Cayden Boyd",
@@ -305,32 +312,33 @@
             ]
         },
         {
-             "Key": "5",
+            "Key": "5",
             "Title": "Ratatouille",
+	    "Release Year": "2007",
             "Status": "Current",
             "Showtimes": [
                 "9:00AM",
                 "12:30PM",
                 "4:30PM"
             ],
-            "Theater": [
+            "Location": [
                 "Lubbock",
                 "Dallas",
                 "Midland",
                 "Big Spring"
             ],
-            "NumberOfSeats": "95",
-            "Synopsis": "Remy dreams of becoming a great chef, despite being a rat in a definitely rodent-phobic profession. He moves to Paris to follow his dream, and with the help of hapless garbage boy Linguini he puts his culinary skills to the test in the kitchen but he has to stay in hiding at the same time, with hilarious consequences. Remy eventually gets the chance to prove his culinary abilities to a great food critic but is the food good? A Pixar animation.",
-            "Runtime": "1 HR 51 MIN",
-		    "Rated": "PG",
-            "Prices": "8",
+            "Number of seats": "95",
+            "Summary": "Remy dreams of becoming a great chef, despite being a rat in a definitely rodent-phobic profession. He moves to Paris to follow his dream, and with the help of hapless garbage boy Linguini he puts his culinary skills to the test in the kitchen but he has to stay in hiding at the same time, with hilarious consequences. Remy eventually gets the chance to prove his culinary abilities to a great food critic but is the food good? A Pixar animation.",
+            "Runtime": "1hr 51min",
+	    "Rated": "PG-13",
+            "Prices": "$8",
             "Reviews": [
                 "Looks Good",
                 "Ten out of Ten",
                 "Made Me Hungry",
                 "The only rat I want in the Kitchen"
             ],
-            "CastInfo": [
+            "Cast": [
                 "Patton Oswalt",
                 "Lou Romano",
                 "Will Arnettt",
