@@ -37,7 +37,7 @@ public class MovieScreenController {
         }
         else{
             searchfor.substring(0, searchfor.indexOf('.'));
-            onViewClicked(actionevent, searchfor);
+            onViewClicked(actionEvent, searchfor);
         }
         //grab the uhhhhhh thing you just searched for and check to see if the name exists in the image file and then go directly to that purchase screen
     }
