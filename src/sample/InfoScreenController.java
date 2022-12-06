@@ -27,21 +27,42 @@ public class InfoScreenController {
 
     public void initialize() throws IOException, ParseException {
 
-        int MovieTitle = MovieScreenController.getMovie();
+        String MovieTitle = MovieScreenController.getMovie();
+        int index;
         System.out.println(MovieTitle);
 
-        JSONParser parser = new JSONParser();
-        JSONObject obj = (JSONObject) parser.parse(new FileReader("src/sample/movieDetails.json"));
-        JSONArray current = (JSONArray) obj.get("Current");
-        JSONObject currentMovie = (JSONObject) current.get(MovieTitle);
+        if (!MovieTitle.contains("Up")) {
 
-        String movieTitle = (String) currentMovie.get("Title");
-        String movieRelease = (String) currentMovie.get("Release Year");
-        String movieSummary = (String) currentMovie.get("Summary");
+            index = Integer.parseInt(MovieTitle);
+            JSONParser parser = new JSONParser();
+            JSONObject obj = (JSONObject) parser.parse(new FileReader("src/sample/movieDetails.json"));
+            JSONArray current = (JSONArray) obj.get("Current");
+            JSONObject currentMovie = (JSONObject) current.get(index);
 
-        movTitle.setText(movieTitle);
-        movRelease.setText(movieRelease);
-        movSumm.setText(movieSummary);
+
+            String movieTitle = (String) currentMovie.get("Title");
+            String movieRelease = (String) currentMovie.get("Release Year");
+            String movieSummary = (String) currentMovie.get("Summary");
+
+            movTitle.setText(movieTitle);
+            movRelease.setText(movieRelease);
+            movSumm.setText(movieSummary);
+        } else {
+            index = Integer.parseInt(MovieTitle.replace("Up",""));
+            JSONParser parser = new JSONParser();
+            JSONObject obj = (JSONObject) parser.parse(new FileReader("src/sample/movieDetails.json"));
+            JSONArray current = (JSONArray) obj.get("Upcoming");
+            JSONObject currentMovie = (JSONObject) current.get(index);
+
+
+            String movieTitle = (String) currentMovie.get("Title");
+            String movieRelease = (String) currentMovie.get("Release Year");
+            String movieSummary = (String) currentMovie.get("Summary");
+
+            movTitle.setText(movieTitle);
+            movRelease.setText(movieRelease);
+            movSumm.setText(movieSummary);
+        }
     }
 
     @FXML private void onReturnClicked() throws IOException {
