@@ -51,12 +51,6 @@ public class MovieScreenController {
     static String movTitle;
     static String movInt;
     
-
-    @FXML
-    private void onEditClicked() {
-
-    }
-    
     @FXML
     private void onSearchClicked(javafx.event.ActionEvent actionEvent) throws IOException {
         
