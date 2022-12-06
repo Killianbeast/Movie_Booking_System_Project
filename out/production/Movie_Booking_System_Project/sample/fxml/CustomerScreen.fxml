@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MovieScreenController">
   <tabs>
     <Tab text="Currently Playing">
       <content>
@@ -38,7 +38,7 @@
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
+                                    <Button fx:id="Movie0" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
                                     <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                  </children>
                               </HBox>
@@ -52,7 +52,7 @@
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
+                                    <Button fx:id="Movie1" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
                                     <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                  </children>
                               </HBox>
@@ -66,7 +66,7 @@
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
+                                    <Button fx:id="Movie2" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
                                     <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                  </children>
                               </HBox>
@@ -82,7 +82,7 @@
                                  <children>
                                     <HBox prefHeight="100.0" prefWidth="200.0">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
+                                          <Button fx:id="Movie3" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
                                           <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                        </children>
                                     </HBox>
@@ -98,7 +98,7 @@
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
+                                    <Button fx:id="Movie4" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
                                     <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                  </children>
                               </HBox>
@@ -112,7 +112,7 @@
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
+                                    <Button fx:id="Movie5" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
                                     <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                  </children>
                               </HBox>
