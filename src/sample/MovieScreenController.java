@@ -35,9 +35,15 @@ public class MovieScreenController {
     @FXML private Button Movie3;
     @FXML private Button Movie4;
     @FXML private Button Movie5;
+    @FXML private Button UpMovie0;
+    @FXML private Button UpMovie1;
+    @FXML private Button UpMovie2;
+    @FXML private Button UpMovie3;
+    @FXML private Button UpMovie4;
+    @FXML private Button UpMovie5;
 
     static String movTitle;
-    static int movInt;
+    static String movInt;
     
 
     @FXML
@@ -69,17 +75,28 @@ public class MovieScreenController {
     private void onViewClicked(javafx.event.ActionEvent actionevent) throws IOException, ParseException {
 
         String movTitle = ((Node) actionevent.getSource()).getId();
-        movInt = Integer.parseInt(movTitle.replace("Movie", ""));
+        movInt = movTitle.replace("Movie", "");
 
         Parent currScene = FXMLLoader.load(getClass().getResource("fxml/InfoScreen.fxml"));
         Stage currStage = Main.getStage();
         currStage.setTitle(movTitle);
         currStage.setScene(new Scene(currScene, 600, 400));
         currStage.show();
-        
     }
 
-    public static int getMovie() {
+    @FXML
+    private void onUpcomingViewClicked(javafx.event.ActionEvent actionevent) throws IOException {
+        String movTitle = ((Node) actionevent.getSource()).getId();
+        movInt = movTitle.replace("Movie", "");
+
+        Parent currScene = FXMLLoader.load(getClass().getResource("fxml/InfoScreen.fxml"));
+        Stage currStage = Main.getStage();
+        currStage.setTitle(movTitle);
+        currStage.setScene(new Scene(currScene, 600, 400));
+        currStage.show();
+    }
+
+    public static String getMovie() {
         return movInt;
     }
 
