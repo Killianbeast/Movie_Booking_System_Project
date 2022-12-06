@@ -38,15 +38,17 @@ public class EditScreenController {
         String editReleaseText = editRelease.getText();
         String editSummText = editSumm.getText();
         
-        index = Integer.parseInt(MovieTitle.replace("Up",""));
+        index = Integer.parseInt(MovieTitle);
         JSONParser parser = new JSONParser();
         JSONObject obj = (JSONObject) parser.parse(new FileReader("src/sample/movieDetails.json"));
-        JSONArray current = (JSONArray) obj.get("Upcoming");
+        JSONArray current = (JSONArray) obj.get("Current");
         JSONObject currentMovie = (JSONObject) current.get(index);
-
-        editTitle.setText(editTitleText);
-        editRelease.setText(editReleaseText);
-        editSumm.setText(editSummText);
+        
+        JSONObject changes = new JSONObject();
+        
+        changes.remove(currentMovie);
+        changes.put(currentMovie, editTitle, editRelease, editSumm);
+       
         
     }
     
