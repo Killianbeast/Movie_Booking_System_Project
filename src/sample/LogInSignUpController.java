@@ -32,9 +32,6 @@ public class LogInSignUpController {
     @FXML
     private void onLoginPressed(/*javafx.event.ActionEvent actionEvent*/) throws IOException {
 
-        //Statement stmt;
-        //Connection conn = dbConnection.connect();
-
         String username = userName.getText();
         String userpass = userPass.getText();
 
