@@ -11,16 +11,16 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://D:/Java/sqlite-jdbc-3.40.0.0.jar!/" />
+          <root url="jar://F:/Java jars/sqlite-jdbc-3.40.0.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/Java/json-simple-1.1.jar/json-simple-1.1.jar!/" />
+          <root url="jar://F:/Java jars/json-simple-1.1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
