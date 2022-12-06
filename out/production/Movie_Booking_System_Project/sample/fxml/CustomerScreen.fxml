@@ -147,7 +147,7 @@
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="201.0" text="View Information" />
+                                    <Button fx:id="UpMovie0" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="201.0" text="View Information" />
                                  </children>
                               </HBox>
                            </children>
@@ -161,7 +161,7 @@
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="201.0" text="View Information" />
+                                    <Button fx:id="UpMovie1" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="201.0" text="View Information" />
                                  </children>
                               </HBox>
                            </children>
@@ -175,7 +175,7 @@
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="202.0" text="View Information" />
+                                    <Button fx:id="UpMovie2" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="202.0" text="View Information" />
                                  </children>
                               </HBox>
                            </children>
@@ -191,7 +191,7 @@
                                  <children>
                                     <HBox prefHeight="100.0" prefWidth="200.0">
                                        <children>
-                                          <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="202.0" text="View Information" />
+                                          <Button fx:id="UpMovie3" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="202.0" text="View Information" />
                                        </children>
                                     </HBox>
                                  </children>
@@ -207,7 +207,7 @@
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="203.0" text="View Information" />
+                                    <Button fx:id="UpMovie4" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="203.0" text="View Information" />
                                  </children>
                               </HBox>
                            </children>
@@ -221,7 +221,7 @@
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="203.0" text="View Information" />
+                                    <Button fx:id="UpMovie5" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="203.0" text="View Information" />
                                  </children>
                               </HBox>
                            </children>

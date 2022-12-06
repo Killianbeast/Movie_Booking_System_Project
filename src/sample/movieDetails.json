@@ -172,6 +172,40 @@
                 "Antonio Banderas as Santiago Moncada",
                 "Sophia Ali as Chloe Frazer"
             ]
+        },
+	{
+            "Key": "6",
+            "Title": "Violent Night",
+            "Release Year": "2022",
+            "Status": "Upcoming",
+            "Showtimes": [
+                "8:20PM",
+                "9:55PM",
+                "11:35PM"
+            ],
+            "Location": [
+                "Lubbock",
+                "Midland",
+                "Big Spring",
+                "Dallas"
+            ],
+            "Number of Seats": "62",
+            "Summary": "An elite team of mercenaries breaks into a family compound on Christmas Eve, taking everyone hostage inside. However, they aren't prepared for a surprise combatant: Santa Claus is on the grounds, and he's about to show why this Nick is no saint.",
+            "Runtime": "1hr 52min",
+	    "Rated": "R",
+            "Prices": "$8",
+            "Reviews": [
+                "Sweet-and-sour bedtime story of good triumphing over evile",
+                "It's an amusing idea, so it's really too bad that the actual action in Violent Night is so weak.",
+                "One of the biggest surprises of the year",
+                "A contemporary Christmas classic!"
+            ],
+            "Cast": [
+                "David Harbour",
+                "John Leguizamo",
+                "Edi Patterson",
+                "Mitra Suri"
+            ]
         }
     ],
     "Current": [
@@ -343,6 +377,40 @@
                 "Lou Romano",
                 "Will Arnettt",
                 "Brad Bird"
+            ]
+        },
+	{
+            "Key": "6",
+            "Title": "Shark Tale",
+	    "Release Year": "2004",
+            "Status": "Current",
+            "Showtimes": [
+                "11:00AM",
+                "2:40PM",
+                "9:15PM"
+            ],
+            "Location": [
+                "Lubbock",
+                "Dallas",
+                "Midland",
+                "Big Spring"
+            ],
+            "Number of seats": "55",
+            "Summary": "Underachiever Oscar (Will Smith) is a pint-sized fish with grand aspirations. When mob-connected great white shark Frankie (Michael Imperioli) is accidentally killed, Oscar concocts a story with Frankie's peace-loving brother Lenny (Jack Black) that it was he who murdered the shark. Suddenly hailed Sharkslayer by his aquatic brethren, Oscar has bigger fish to fry when Frankie's father, mob boss Don Lino (Robert De Niro), dispatches his henchmen to track down his son's killer.",
+            "Runtime": "1hr 30min",
+	    "Rated": "PG",
+            "Prices": "$8",
+            "Reviews": [
+                "Not up to Shrek level, but a feast for the eyes",
+                "It's an adequate time-killer that benefits from an impressive voice cast",
+                "The plot is nothing special",
+                "Good entertainment overall"
+            ],
+            "Cast": [
+                "Will Smith",
+                "Robert De Niro",
+                "Jack Black",
+                "Angelina Jolie"
             ]
         }
     ]
