@@ -41,43 +41,61 @@ public class PurchaseScreenController {
   @FXML
   private void onTimePressed(javafx.event.ActionEvent actionEvent) throws IOException {
     
-    //  Card
+    Parent currScene = FXMLLoader.load(getClass().getResource("")); 
+    Stage currStage = Main.getStage();
+
+    currStage.setTitle("");
+    currStage.setScene((new Scene(currScene, 600, 400)));
+    currStage.show();
+
+  }
+  
+  private void onCardDetailsViewed(javafx.event.ActionEvent actionEvent) throws IOException {
+    
+    // Confirmation details by displaying movie, time, and payment (last 4 digits of the card)
+    
+     //  Card
    String CardholderNameText = CardholderName.getText();
    String CardNoText = CardNo.getText();
    String ExpDateText = ExpDate.getText();
    String SecCodeText = SecCode.getText();
     
-   //  Paypal
-   String payEmailText = payEmail.getText();
-   String payPassText = payPass.getText();
-    
-   //  Venmo (If we want a second check method)
-   String venEmailText = venEmail.getText();
-   String venPassText = venPass.getText();
-    
-    // Tab through which payment method the user wishes to use (Card/Check) and enter details
-  
+   //check if credit detials work
+   
+   if (CardNoText.length() != 16 or ExpDateText.length() != 5 or ExpDateText.length() != 7 or SecCodeText.length != 3) {
+    System.out.println("Invalid Card Details."); 
+   }
+   else {
     Parent currScene = FXMLLoader.load(getClass().getResource("")); 
     Stage currStage = Main.getStage();
 
     currStage.setTitle("");
     currStage.setScene((new Scene(currScene, 600, 400)));
     currStage.show();
-
+   }
+         
   }
   
-  private void onDetailsViewed(javafx.event.ActionEvent actionEvent) throws IOException {
+  private void onCheckDetailsViewed(javafx.event.ActionEvent actionEvent) throws IOException {
     
-    // Confirm details by displaying movie, time, and payment (last 4 digits of the card or name of check)
+     // Confirmation details by displaying movie, time, and payment (Which of Paypal/Venmo was used)
+
+     //  Paypal
+     String payEmailText = payEmail.getText();
+     String payPassText = payPass.getText();
+
+     //  Venmo 
+     String venEmailText = venEmail.getText();
+     String venPassText = venPass.getText();
+
+     Parent currScene = FXMLLoader.load(getClass().getResource("")); 
+     Stage currStage = Main.getStage();
+
+     currStage.setTitle("");
+     currStage.setScene((new Scene(currScene, 600, 400)));
+     currStage.show();
+   }
   
-    Parent currScene = FXMLLoader.load(getClass().getResource("")); 
-    Stage currStage = Main.getStage();
-
-    currStage.setTitle("");
-    currStage.setScene((new Scene(currScene, 600, 400)));
-    currStage.show();
-
-  }
   
   private void onReturnClicked(javafx.event.ActionEvent actionEvent) throws IOException {
     
@@ -92,11 +110,6 @@ public class PurchaseScreenController {
 
   }
   
-  private void onReviewClicked(javafx.event.ActionEvent actionEvent) throws IOException {
-    
-    //this can be done last if need be
-    
-  }
   
   
 }
