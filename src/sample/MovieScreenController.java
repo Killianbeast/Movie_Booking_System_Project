@@ -1,20 +1,43 @@
 package sample;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
+
+import java.io.FileReader;
+import java.util.Iterator;
+import java.util.Map;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.*;
 
 
 import javafx.scene.control.TextField;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Objects;
 
 public class MovieScreenController {
     
     @FXML private TextField SearchBar;
+    @FXML private Button Movie0;
+    @FXML private Button Movie1;
+    @FXML private Button Movie2;
+    @FXML private Button Movie3;
+    @FXML private Button Movie4;
+    @FXML private Button Movie5;
+
+    static String movTitle;
+    static int movInt;
     
 
     @FXML
@@ -37,21 +60,27 @@ public class MovieScreenController {
         }
         else{
             searchfor.substring(0, searchfor.indexOf('.'));
-            onViewClicked(actionEvent, searchfor);
+            //onViewClicked(actionEvent);
         }
         //grab the uhhhhhh thing you just searched for and check to see if the name exists in the image file and then go directly to that purchase screen
     }
-    
-    private void onViewClicked(javafx.event.ActionEvent actionevent, String MovieTitle) throws IOException {
-        
+
+    @FXML
+    private void onViewClicked(javafx.event.ActionEvent actionevent) throws IOException, ParseException {
+
+        String movTitle = ((Node) actionevent.getSource()).getId();
+        movInt = Integer.parseInt(movTitle.replace("Movie", ""));
+
         Parent currScene = FXMLLoader.load(getClass().getResource("fxml/InfoScreen.fxml"));
         Stage currStage = Main.getStage();
-        currStage.setTitle(MovieTitle);
+        currStage.setTitle(movTitle);
         currStage.setScene(new Scene(currScene, 600, 400));
         currStage.show();
         
     }
-    
 
+    public static int getMovie() {
+        return movInt;
+    }
 
 }

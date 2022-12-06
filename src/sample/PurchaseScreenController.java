@@ -13,7 +13,7 @@ import java.io.File;
 public class PurchaseScreenController {
   
   //Payment Details
-  @FXML private Textfield CardholderName;
+  @FXML private TextField CardholderName;
   @FXML private TextField CardNo;
   @FXML private TextField ExpDate;
   @FXML private PasswordField SecCode;
