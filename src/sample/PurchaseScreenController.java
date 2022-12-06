@@ -13,9 +13,10 @@ import java.io.File;
 public class PurchaseScreenController {
   
   //Payment Details
+  @FXML private Textfield CardholderName;
   @FXML private TextField CardNo;
   @FXML private TextField ExpDate;
-  @FXML private TextField SecCode;
+  @FXML private PasswordField SecCode;
   @FXML private TextField payEmail;
   @FXML private PasswordField payPass;
   @FXML private TextField venEmail;
@@ -41,6 +42,7 @@ public class PurchaseScreenController {
   private void onTimePressed(javafx.event.ActionEvent actionEvent) throws IOException {
     
     //  Card
+   String CardholderNameText = CardholderName.getText();
    String CardNoText = CardNo.getText();
    String ExpDateText = ExpDate.getText();
    String SecCodeText = SecCode.getText();
