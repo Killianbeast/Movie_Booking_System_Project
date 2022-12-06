@@ -58,4 +58,18 @@ public class dbConnection {
             throw new RuntimeException(e);
         }
     }
+
+    public static boolean checkIsAdmin(String email) {
+        Statement stmt;
+        Connection connec = connect();
+
+        try {
+            stmt = connec.createStatement();
+            ResultSet rs = stmt.executeQuery(String.format("SELECT isAdmin FROM Users WHERE Email = '%s'", email));
+            return rs.getBoolean(1);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
 }

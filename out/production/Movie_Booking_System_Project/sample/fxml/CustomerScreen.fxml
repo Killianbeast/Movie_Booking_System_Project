@@ -39,7 +39,7 @@
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
                                     <Button fx:id="Movie0" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                    <Button fx:id="PurrMovie0" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                  </children>
                               </HBox>
                            </children>
@@ -53,7 +53,7 @@
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
                                     <Button fx:id="Movie1" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                    <Button fx:id="PurrMovie1" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                  </children>
                               </HBox>
                            </children>
@@ -67,7 +67,7 @@
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
                                     <Button fx:id="Movie2" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                    <Button fx:id="PurrMovie2" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                  </children>
                               </HBox>
                            </children>
@@ -83,7 +83,7 @@
                                     <HBox prefHeight="100.0" prefWidth="200.0">
                                        <children>
                                           <Button fx:id="Movie3" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                          <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                          <Button fx:id="PurrMovie3" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                        </children>
                                     </HBox>
                                  </children>
@@ -99,7 +99,7 @@
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
                                     <Button fx:id="Movie4" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                    <Button fx:id="PurrMovie4" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                  </children>
                               </HBox>
                            </children>
@@ -113,7 +113,7 @@
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
                                     <Button fx:id="Movie5" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                    <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                    <Button fx:id="PurrMovie5" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                  </children>
                               </HBox>
                            </children>

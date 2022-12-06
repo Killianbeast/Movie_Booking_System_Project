@@ -41,11 +41,19 @@ public class LogInSignUpController {
         if (!dbConnection.checkLogin(username, userpass)) {
             System.out.println("Login Failed");
         } else {
-            Parent currScene = FXMLLoader.load(getClass().getResource("fxml/CustomerScreen.fxml"));
-            Stage currStage = Main.getStage();
-            currStage.setTitle("Movies");
-            currStage.setScene(new Scene(currScene, 600, 400));
-            currStage.show();
+            if (dbConnection.checkIsAdmin(username)) {
+                Parent currScene = FXMLLoader.load(getClass().getResource("fxml/AdminScreen.fxml"));
+                Stage currStage = Main.getStage();
+                currStage.setTitle("Movies");
+                currStage.setScene(new Scene(currScene, 600, 400));
+                currStage.show();
+            } else {
+                Parent currScene = FXMLLoader.load(getClass().getResource("fxml/CustomerScreen.fxml"));
+                Stage currStage = Main.getStage();
+                currStage.setTitle("Movies");
+                currStage.setScene(new Scene(currScene, 600, 400));
+                currStage.show();
+            }
         }
     }
 

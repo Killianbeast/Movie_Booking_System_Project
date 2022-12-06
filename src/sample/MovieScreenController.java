@@ -41,15 +41,15 @@ public class MovieScreenController {
     @FXML private Button UpMovie3;
     @FXML private Button UpMovie4;
     @FXML private Button UpMovie5;
+    @FXML private Button PurrMovie0;
+    @FXML private Button PurrMovie1;
+    @FXML private Button PurrMovie2;
+    @FXML private Button PurrMovie3;
+    @FXML private Button PurrMovie4;
+    @FXML private Button PurrMovie5;
 
     static String movTitle;
     static String movInt;
-    
-
-    @FXML
-    private void onEditClicked() {
-
-    }
     
     @FXML
     private void onSearchClicked(javafx.event.ActionEvent actionEvent) throws IOException {
@@ -92,6 +92,18 @@ public class MovieScreenController {
         Parent currScene = FXMLLoader.load(getClass().getResource("fxml/InfoScreen.fxml"));
         Stage currStage = Main.getStage();
         currStage.setTitle(movTitle);
+        currStage.setScene(new Scene(currScene, 600, 400));
+        currStage.show();
+    }
+
+    @FXML
+    private void onPurchaseTicketClicked(javafx.event.ActionEvent actionevent) throws IOException {
+        String movTitle = ((Node) actionevent.getSource()).getId();
+        movInt = movTitle.replace("PurrMovie", "");
+
+        Parent currScene = FXMLLoader.load(getClass().getResource("fxml/TimesScreen.fxml"));
+        Stage currStage = Main.getStage();
+        currStage.setTitle("Purchase Ticket");
         currStage.setScene(new Scene(currScene, 600, 400));
         currStage.show();
     }

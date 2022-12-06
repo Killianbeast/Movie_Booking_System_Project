@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MovieScreenController">
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminScreenController">
   <tabs>
     <Tab text="Currently Playing">
       <content>
@@ -38,8 +38,7 @@
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="Movie0" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                    <Button fx:id="PurrMovie0" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                    <Button fx:id="editMovie0" mnemonicParsing="false" onAction="#onEditClicked" prefHeight="38.0" prefWidth="201.0" text="Edit Movie" />
                                  </children>
                               </HBox>
                            </children>
@@ -52,8 +51,7 @@
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="Movie1" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                    <Button fx:id="PurrMovie1" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                    <Button fx:id="editMovie1" mnemonicParsing="false" onAction="#onEditClicked" prefHeight="38.0" prefWidth="206.0" text="Edit Movie" />
                                  </children>
                               </HBox>
                            </children>
@@ -66,8 +64,7 @@
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="Movie2" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                    <Button fx:id="PurrMovie2" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                    <Button fx:id="editMovie2" mnemonicParsing="false" onAction="#onEditClicked" prefHeight="38.0" prefWidth="201.0" text="Edit Movie" />
                                  </children>
                               </HBox>
                            </children>
@@ -82,8 +79,7 @@
                                  <children>
                                     <HBox prefHeight="100.0" prefWidth="200.0">
                                        <children>
-                                          <Button fx:id="Movie3" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                          <Button fx:id="PurrMovie3" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                          <Button fx:id="editMovie3" mnemonicParsing="false" onAction="#onEditClicked" prefHeight="38.0" prefWidth="202.0" text="Edit Movie" />
                                        </children>
                                     </HBox>
                                  </children>
@@ -98,8 +94,7 @@
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="Movie4" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                    <Button fx:id="PurrMovie4" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                    <Button fx:id="editMovie4" mnemonicParsing="false" onAction="#onEditClicked" prefHeight="38.0" prefWidth="201.0" text="Edit Movie" />
                                  </children>
                               </HBox>
                            </children>
@@ -112,8 +107,7 @@
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="Movie5" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                    <Button fx:id="PurrMovie5" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                    <Button fx:id="editMovie5" mnemonicParsing="false" onAction="#onEditClicked" prefHeight="38.0" prefWidth="203.0" text="Edit Movie" />
                                  </children>
                               </HBox>
                            </children>
@@ -147,7 +141,7 @@
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="UpMovie0" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="201.0" text="View Information" />
+                                    <Button fx:id="editUpMovie0" mnemonicParsing="false" onAction="#onEditClicked" prefHeight="38.0" prefWidth="201.0" text="Edit Movie" />
                                  </children>
                               </HBox>
                            </children>
@@ -161,7 +155,7 @@
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="UpMovie1" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="201.0" text="View Information" />
+                                    <Button fx:id="editUpMovie1" mnemonicParsing="false" onAction="#onEditClicked" prefHeight="38.0" prefWidth="201.0" text="Edit Movie" />
                                  </children>
                               </HBox>
                            </children>
@@ -175,7 +169,7 @@
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="UpMovie2" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="202.0" text="View Information" />
+                                    <Button fx:id="editUpMovie2" mnemonicParsing="false" onAction="#onEditClicked" prefHeight="38.0" prefWidth="202.0" text="Edit Movie" />
                                  </children>
                               </HBox>
                            </children>
@@ -191,7 +185,7 @@
                                  <children>
                                     <HBox prefHeight="100.0" prefWidth="200.0">
                                        <children>
-                                          <Button fx:id="UpMovie3" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="202.0" text="View Information" />
+                                          <Button fx:id="editUpMovie3" mnemonicParsing="false" onAction="#onEditClicked" prefHeight="38.0" prefWidth="202.0" text="Edit Movie" />
                                        </children>
                                     </HBox>
                                  </children>
@@ -207,7 +201,7 @@
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="UpMovie4" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="203.0" text="View Information" />
+                                    <Button fx:id="editUpMovie4" mnemonicParsing="false" onAction="#onEditClicked" prefHeight="38.0" prefWidth="203.0" text="Edit Movie" />
                                  </children>
                               </HBox>
                            </children>
@@ -221,7 +215,7 @@
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="UpMovie5" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="203.0" text="View Information" />
+                                    <Button fx:id="editUpMovie5" mnemonicParsing="false" onAction="#onEditClicked" prefHeight="38.0" prefWidth="203.0" text="Edit Movie" />
                                  </children>
                               </HBox>
                            </children>
@@ -232,10 +226,5 @@
             </AnchorPane>
          </content>
       </Tab>
-    <Tab text="Search">
-      <content>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-      </content>
-    </Tab>
   </tabs>
 </TabPane>
