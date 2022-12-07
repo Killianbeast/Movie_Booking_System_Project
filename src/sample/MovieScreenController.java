@@ -108,6 +108,15 @@ public class MovieScreenController {
         currStage.show();
     }
 
+    @FXML
+    private void onLogOutClicked() throws IOException {
+        Parent currScene = FXMLLoader.load(getClass().getResource("fxml/LogInScreen.fxml"));
+        Stage currStage = Main.getStage();
+        currStage.setTitle("Purchase Ticket");
+        currStage.setScene(new Scene(currScene, 600, 400));
+        currStage.show();
+    }
+
     public static String getMovie() {
         return movInt;
     }

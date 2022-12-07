@@ -33,13 +33,13 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/dak.jpg" />
+                                    <Image url="@../img/TheRoom.jpg" />
                                  </image>
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="Movie0" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                    <Button fx:id="PurrMovie0" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                    <Button fx:id="Movie0" mnemonicParsing="false" onAction="#onViewClicked" prefHeight="38.0" prefWidth="106.0" text="View Info" />
+                                    <Button fx:id="PurrMovie0" mnemonicParsing="false" onAction="#onPurchaseTicketClicked" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                  </children>
                               </HBox>
                            </children>
@@ -48,12 +48,12 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/EIqXOl0WkAMeWGz.jpg" />
+                                    <Image url="@../img/PowerRangers.jpg" />
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="Movie1" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                    <Button fx:id="PurrMovie1" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                    <Button fx:id="Movie1" mnemonicParsing="false" onAction="#onViewClicked" prefHeight="38.0" prefWidth="106.0" text="View Info" />
+                                    <Button fx:id="PurrMovie1" mnemonicParsing="false" onAction="#onPurchaseTicketClicked" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                  </children>
                               </HBox>
                            </children>
@@ -62,12 +62,12 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/FPDZ6mpX0A0wXxx.jpg" />
+                                    <Image url="@../img/HaroldKumar.jpg" />
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="Movie2" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                    <Button fx:id="PurrMovie2" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                    <Button fx:id="Movie2" mnemonicParsing="false" onAction="#onViewClicked" prefHeight="38.0" prefWidth="106.0" text="View Info" />
+                                    <Button fx:id="PurrMovie2" mnemonicParsing="false" onAction="#onPurchaseTicketClicked" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                  </children>
                               </HBox>
                            </children>
@@ -76,14 +76,14 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/i_am_going.png" />
+                                    <Image url="@../img/SharkBoy.jpg" />
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
                                     <HBox prefHeight="100.0" prefWidth="200.0">
                                        <children>
-                                          <Button fx:id="Movie3" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                          <Button fx:id="PurrMovie3" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                          <Button fx:id="Movie3" mnemonicParsing="false" onAction="#onViewClicked" prefHeight="38.0" prefWidth="106.0" text="View Info" />
+                                          <Button fx:id="PurrMovie3" mnemonicParsing="false" onAction="#onPurchaseTicketClicked" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                        </children>
                                     </HBox>
                                  </children>
@@ -94,12 +94,12 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/riolu.jpeg" />
+                                    <Image url="@../img/xl_382932_bcae738b.jpg" />
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="Movie4" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                    <Button fx:id="PurrMovie4" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                    <Button fx:id="Movie4" mnemonicParsing="false" onAction="#onViewClicked" prefHeight="38.0" prefWidth="106.0" text="View Info" />
+                                    <Button fx:id="PurrMovie4" mnemonicParsing="false" onAction="#onPurchaseTicketClicked" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                  </children>
                               </HBox>
                            </children>
@@ -108,12 +108,12 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/EPTnuZXUcAAAml4.jpg" />
+                                    <Image url="@../img/Shark.jpg" />
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="Movie5" onAction="#onViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="View Info" />
-                                    <Button fx:id="PurrMovie5" onAction="#onPurchaseTicketClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
+                                    <Button fx:id="Movie5" mnemonicParsing="false" onAction="#onViewClicked" prefHeight="38.0" prefWidth="106.0" text="View Info" />
+                                    <Button fx:id="PurrMovie5" mnemonicParsing="false" onAction="#onPurchaseTicketClicked" prefHeight="38.0" prefWidth="106.0" text="Purchase Ticket" />
                                  </children>
                               </HBox>
                            </children>
@@ -142,12 +142,12 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/dak.jpg" />
+                                    <Image url="@../img/Top%20Gun.jpg" />
                                  </image>
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="UpMovie0" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="201.0" text="View Information" />
+                                    <Button fx:id="UpMovie0" mnemonicParsing="false" onAction="#onUpcomingViewClicked" prefHeight="38.0" prefWidth="201.0" text="View Information" />
                                  </children>
                               </HBox>
                            </children>
@@ -156,12 +156,12 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/EIqXOl0WkAMeWGz.jpg" />
+                                    <Image url="@../img/BlackAdam.jpeg" />
                                  </image>
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="UpMovie1" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="201.0" text="View Information" />
+                                    <Button fx:id="UpMovie1" mnemonicParsing="false" onAction="#onUpcomingViewClicked" prefHeight="38.0" prefWidth="201.0" text="View Information" />
                                  </children>
                               </HBox>
                            </children>
@@ -170,12 +170,12 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/FPDZ6mpX0A0wXxx.jpg" />
+                                    <Image url="@../img/BulletTrain.jpg" />
                                  </image>
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="UpMovie2" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="202.0" text="View Information" />
+                                    <Button fx:id="UpMovie2" mnemonicParsing="false" onAction="#onUpcomingViewClicked" prefHeight="38.0" prefWidth="202.0" text="View Information" />
                                  </children>
                               </HBox>
                            </children>
@@ -184,14 +184,14 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/i_am_going.png" />
+                                    <Image url="@../img/TheBatman.jpg" />
                                  </image>
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
                                     <HBox prefHeight="100.0" prefWidth="200.0">
                                        <children>
-                                          <Button fx:id="UpMovie3" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="202.0" text="View Information" />
+                                          <Button fx:id="UpMovie3" mnemonicParsing="false" onAction="#onUpcomingViewClicked" prefHeight="38.0" prefWidth="202.0" text="View Information" />
                                        </children>
                                     </HBox>
                                  </children>
@@ -202,12 +202,12 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/riolu.jpeg" />
+                                    <Image url="@../img/Uncharted.jpg" />
                                  </image>
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="UpMovie4" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="203.0" text="View Information" />
+                                    <Button fx:id="UpMovie4" mnemonicParsing="false" onAction="#onUpcomingViewClicked" prefHeight="38.0" prefWidth="203.0" text="View Information" />
                                  </children>
                               </HBox>
                            </children>
@@ -216,12 +216,12 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/EPTnuZXUcAAAml4.jpg" />
+                                    <Image url="@../img/ViolentNight.jpg" />
                                  </image>
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
-                                    <Button fx:id="UpMovie5" onAction="#onUpcomingViewClicked" mnemonicParsing="false" prefHeight="38.0" prefWidth="203.0" text="View Information" />
+                                    <Button fx:id="UpMovie5" mnemonicParsing="false" onAction="#onUpcomingViewClicked" prefHeight="38.0" prefWidth="203.0" text="View Information" />
                                  </children>
                               </HBox>
                            </children>
@@ -237,5 +237,14 @@
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
       </content>
     </Tab>
+      <Tab text="Log Out">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button layoutX="238.0" layoutY="173.0" mnemonicParsing="false" onAction="#onLogOutClicked" text="Click here to log out" />
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
   </tabs>
 </TabPane>

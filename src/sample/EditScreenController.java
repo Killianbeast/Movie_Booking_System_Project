@@ -32,22 +32,25 @@ public class EditScreenController {
         currStage.show();
     }
     
+    /*
     @FXML private void onEditClicked() throws IOException {
-        
-        String editTitleText = editTitle.getText();
-        String editReleaseText = editRelease.getText();
-        String editSummText = editSumm.getText();
-        
-        index = Integer.parseInt(MovieTitle.replace("Up",""));
+
+        int index = Integer.parseInt(MovieTitle.replace("Up",""));
         JSONParser parser = new JSONParser();
         JSONObject obj = (JSONObject) parser.parse(new FileReader("src/sample/movieDetails.json"));
         JSONArray current = (JSONArray) obj.get("Upcoming");
         JSONObject currentMovie = (JSONObject) current.get(index);
+
+        String editTitleText = editTitle.getText();
+        String editReleaseText = editRelease.getText();
+        String editSummText = editSumm.getText();
+
 
         editTitle.setText(editTitleText);
         editRelease.setText(editReleaseText);
         editSumm.setText(editSummText);
         
     }
+     */
     
 }

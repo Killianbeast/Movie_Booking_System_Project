@@ -13,27 +13,27 @@
 <?import javafx.scene.layout.VBox?>
 
 <TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminScreenController">
-  <tabs>
-    <Tab text="Currently Playing">
-      <content>
-        <AnchorPane minHeight="0.0" minWidth="0.0">
+   <tabs>
+      <Tab text="Currently Playing">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0">
                <children>
                   <GridPane layoutY="1.0" prefHeight="370.0" prefWidth="600.0">
-                    <columnConstraints>
-                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     <columnConstraints>
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                    </columnConstraints>
-                    <rowConstraints>
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                    </rowConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
                      <children>
                         <VBox prefHeight="200.0" prefWidth="100.0">
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/dak.jpg" />
+                                    <Image url="@../img/TheRoom.jpg" />
                                  </image>
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
@@ -47,7 +47,7 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/EIqXOl0WkAMeWGz.jpg" />
+                                    <Image url="@../img/PowerRangers.jpg" />
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
@@ -60,7 +60,7 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/FPDZ6mpX0A0wXxx.jpg" />
+                                    <Image url="@../img/HaroldKumar.jpg" />
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
@@ -73,7 +73,7 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/i_am_going.png" />
+                                    <Image url="@../img/SharkBoy.jpg" />
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
@@ -90,7 +90,7 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/riolu.jpeg" />
+                                    <Image url="@../img/xl_382932_bcae738b.jpg" />
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
@@ -103,7 +103,7 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/EPTnuZXUcAAAml4.jpg" />
+                                    <Image url="@../img/Shark.jpg" />
                                  </image></ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
                                  <children>
@@ -115,8 +115,8 @@
                      </children>
                   </GridPane>
                </children></AnchorPane>
-      </content>
-    </Tab>
+         </content>
+      </Tab>
       <Tab text="Upcoming Movies">
          <content>
             <AnchorPane minHeight="0.0" minWidth="0.0">
@@ -136,7 +136,7 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/dak.jpg" />
+                                    <Image url="@../img/Top%20Gun.jpg" />
                                  </image>
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
@@ -150,7 +150,7 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/EIqXOl0WkAMeWGz.jpg" />
+                                    <Image url="@../img/BlackAdam.jpeg" />
                                  </image>
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
@@ -164,7 +164,7 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/FPDZ6mpX0A0wXxx.jpg" />
+                                    <Image url="@../img/BulletTrain.jpg" />
                                  </image>
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
@@ -178,7 +178,7 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/i_am_going.png" />
+                                    <Image url="@../img/TheBatman.jpg" />
                                  </image>
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
@@ -196,7 +196,7 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/riolu.jpeg" />
+                                    <Image url="@../img/Uncharted.jpg" />
                                  </image>
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
@@ -210,7 +210,7 @@
                            <children>
                               <ImageView fitHeight="147.0" fitWidth="200.0" pickOnBounds="true" VBox.vgrow="ALWAYS">
                                  <image>
-                                    <Image url="@../img/EPTnuZXUcAAAml4.jpg" />
+                                    <Image url="@../img/ViolentNight.jpg" />
                                  </image>
                               </ImageView>
                               <HBox prefHeight="100.0" prefWidth="200.0">
@@ -226,5 +226,14 @@
             </AnchorPane>
          </content>
       </Tab>
-  </tabs>
+      <Tab text="Log Out">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button layoutX="235.0" layoutY="173.0" mnemonicParsing="false" onAction="#onLogOutClicked" text="Click Here to Log Out" />
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+   </tabs>
 </TabPane>
